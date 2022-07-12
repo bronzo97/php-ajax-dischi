@@ -2,7 +2,7 @@
 
     $db = [
             [
-                "poster" => "https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg", 
+                "poster" => "https://upload.wikimedia.org/wikipedia/en/2/2c/Bon_Jovi_New_Jersey.jpg", 
                 "title" => "New Jersey", 
                 "author" => "Bon Jovi", 
                 "genre" => "Rock", 
