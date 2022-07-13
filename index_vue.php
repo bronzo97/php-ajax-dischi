@@ -19,7 +19,10 @@
         <h1>{{ pageTitle }}</h1>
         <ul>
             <li v-for="disco in db">
+            <img :src="disco.poster" alt="" srcset="">
             {{disco.title}}
+            {{disco.author}}
+            {{disco.year}}
             </li>
         </ul>
         </div>
