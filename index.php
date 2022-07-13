@@ -17,19 +17,19 @@ include "db/db_dischi.php";
     <div class="container">
 
     <?php
-      foreach ($db as $disco) {
-        $img = $disco["poster"];
-        $title = $disco["title"];
-        $author = $disco["author"];
-        $year = $disco["year"]
-      ?>
+        foreach ($db as $disco) {
+            $img = $disco["poster"];
+            $title = $disco["title"];
+            $author = $disco["author"];
+            $year = $disco["year"]
+        ?>
     <ul></ul>
         <li> <img src="<?php echo $img ?>"></li>
         <li><?php echo $title ?></li>
         <li><?php echo $author ?></li>
         <li><?php echo $year ?></li>
     </ul>
-      <?php } ?>
+        <?php } ?>
 
     </div>
 </body>
