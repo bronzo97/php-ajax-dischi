@@ -1,6 +1,6 @@
 <?php
 
-require "/db_dischi.php";
+require "db_dischi.php";
 
 header("Content-Type: application/json");
 

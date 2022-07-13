@@ -5,7 +5,7 @@ const appVue = new Vue({
         db: [],
     },
     mounted() {
-        axios.get("../db/db_dischi_vue.php")
+        axios.get("db/db_dischi_vue.php")
         .then(resp => {
             this.db = resp.data.db;
         })
